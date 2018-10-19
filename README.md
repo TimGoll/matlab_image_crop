@@ -31,5 +31,5 @@ Here's a small example of the edge points
     /                             \
    +------_________                \
  [x4, y4]          -----------------+
-				                 [x3, y3]
+                                 [x3, y3]
 ```
