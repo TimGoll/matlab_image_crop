@@ -17,8 +17,8 @@ img_out = crop_image(img_in, coordinates_x, coordinates_y, resolution)
 img = imread('path/to/image.png');
 
 img_cut_red = crop_image(img(:,:,1), [66, 2468, 2479, 70], [90, 100, 1436, 1460], [1920, 1080]);
-img_cut_green = crop_image(img(:,:,1), [66, 2468, 2479, 70], [90, 100, 1436, 1460], [1920, 1080]);
-img_cut_blue = crop_image(img(:,:,1), [66, 2468, 2479, 70], [90, 100, 1436, 1460], [1920, 1080]);
+img_cut_green = crop_image(img(:,:,2), [66, 2468, 2479, 70], [90, 100, 1436, 1460], [1920, 1080]);
+img_cut_blue = crop_image(img(:,:,3), [66, 2468, 2479, 70], [90, 100, 1436, 1460], [1920, 1080]);
 ```
 
 ## Edge point order
